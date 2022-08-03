@@ -6,6 +6,7 @@ public class Main {
         SalesManager salesManager = new SalesManager(profit);
         System.out.println("Размер максимальной прибыли " +
                 salesManager.max() + " руб.");
+        System.out.println("Обрезанное среднее равно " + salesManager.cutMean());
     }
 }
 
